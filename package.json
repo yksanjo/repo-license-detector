@@ -1,0 +1,12 @@
+{
+  "name": "repo-license-detector",
+  "version": "1.0.0",
+  "description": "Detect and manage licenses across your repositories",
+  "main": "src/index.js",
+  "bin": { "gh-license": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "license"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
